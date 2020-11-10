@@ -26,32 +26,32 @@ def assigner(players):
 # define a dict for each player with emails
 players = {
     "Jonas": {"name": "Jonas",
-            "email": "santabot69+jonas@gmail.com",#"jonas.debeukelaer@gmail.com",
+            "email": "jonas.debeukelaer@gmail.com",
             "nogift": [],
             "giftee": None
     },
     "Jeni": {"name": "Jeni",
-         "email": "santabot69+jeni@gmail.com",#"",
+         "email": "jeni_pillai@hotmail.co.uk",
          "nogift": [],
          "giftee": None
     },
     "Alex": {"name": "Alex",
-         "email": "santabot69+alex@gmail.com",#"a-k-c@hotmail.co.uk",
+         "email": "a-k-c@hotmail.co.uk",
          "nogift": [],
          "giftee": None
     },
     "Margot": {"name": "Margot",
-         "email": "santabot69+margot@gmail.com",#"margot.mollier@gmail.com",
+         "email": "margot.mollier@gmail.com",
          "nogift": [],
          "giftee": None
     },
     "Sophia": {"name": "Sophia",
-         "email": "santabot69+sophs@gmail.com",#"sophianadri@gmail.com",
+         "email": "sophianadri@gmail.com",
          "nogift": [],
          "giftee": None
     },
     "Felix": {"name": "Felix",
-         "email": "santabot69+felix@gmail.com",#"tfjoutlaw@gmail.com",
+         "email": "tfjoutlaw@gmail.com",
          "nogift": [],
          "giftee": None
     }
