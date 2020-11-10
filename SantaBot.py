@@ -20,7 +20,7 @@ def assigner(players):
         giftees = list(giftees)
         players[player]["giftee"] = giftees[randint(0, len(giftees) - 1)]
         unassigned.remove(players[player]["giftee"])
-        print("%s will give a gift to %s." % (players[player]["name"], players[player]["giftee"]))
+        # print("%s will give a gift to %s." % (players[player]["name"], players[player]["giftee"]))
 
 
 # define a dict for each player with emails
