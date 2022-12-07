@@ -54,16 +54,33 @@ players = {
          "email": "tfjoutlaw@gmail.com",
          "nogift": [],
          "giftee": None
-    }
+    },
+    "Anda": {"name": "Anda",
+         "email": "andachisster@gmail.com",
+         "nogift": [],
+         "giftee": None
+    },
+    "Scott": {"name": "Scott",
+         "email": "me@scottadams.co",
+         "nogift": [],
+         "giftee": None
+    },
+    "Azza": {"name": "Azza",
+         "email": "azza.boutour@gmail.com",
+         "nogift": [],
+         "giftee": None
+    },
 }
 
 # assign forbidden giftees. Their names must EXACTLY match their name in players.keys()
 players["Jonas"]["nogift"].append("Jeni")
 players["Jeni"]["nogift"].append("Jonas")
-players["Alex"]["nogift"].append("Margot")
-players["Margot"]["nogift"].append("Alex")
+#players["Alex"]["nogift"].append("Margot")
+#players["Margot"]["nogift"].append("Alex")
 players["Sophia"]["nogift"].append("Felix")
 players["Felix"]["nogift"].append("Sophia")
+players["Anda"]["nogift"].append("Scott")
+players["Scott"]["nogift"].append("Anda")
 
 # assign giftees
 k = 0
@@ -81,7 +98,7 @@ timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 port = 465  # for SSL
 smtp_server = "smtp.gmail.com"
 sender_email = "santabot69@gmail.com"
-pw = input("Type your password and press enter:")
+pw = "roipqrgjgyrrkdkj"
 context = ssl.create_default_context()
 with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
     server.login(sender_email, pw)
